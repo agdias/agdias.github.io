@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Lato:300,400|Open+Sans:300,400');
 
+/*******
+  hero: #e7d7d7;
+  body: #8b3a3a;
+
+********/
+
+
 body {
-	background: rgba(188,170,153,1);
+	 background: rgba(139,58,58,1);
 }
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.hero {
+    background: rgba(231,215,215,1);
+    height: 10vh;
+}
+
+.wrapper {
+    width: 100%;
