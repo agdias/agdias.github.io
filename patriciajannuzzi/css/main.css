@@ -51,7 +51,7 @@ body {
 @media screen and (min-width: 500px) {
 
     .hero {
-        background: rgba(231,215,215,0.5);
+        background: rgba(231,215,215,1);
         font-size: 1.5em;
     }
 }
