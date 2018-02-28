@@ -15,6 +15,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    padding: 2px;
 
 
 }
@@ -22,7 +23,7 @@ body {
 .title {
     color: #003366;
     font-family: 'Cinzel', sans-serif;
-    f
+    margin: 1px 2px;
 
 }
 
@@ -35,8 +36,8 @@ body {
 
 
 .hero {
-    background: rgba(231,215,215,1);
-    height: 10vh;
+    background: rgba(231,215,215,0.9);
+
 }
 
 .wrapper {
