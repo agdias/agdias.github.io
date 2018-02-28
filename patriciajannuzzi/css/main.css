@@ -46,3 +46,12 @@ body {
 
 .wrapper {
     width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+
+    .hero {
+        background: rgba(231,215,215,0.5);
+    }
+}
+@media
