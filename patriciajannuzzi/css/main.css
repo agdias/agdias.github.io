@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel:400,700|Lato:300,400|Open+Sans:300,400');
 
 /*******
-  hero: #e7d7d7;
-  body: #8b3a3a;
-
+  hero: #e7d7d7; | rgba(231,215,215,1);
+  body: #8b3a3a; rgba(139,58,58,1);
+   
 ********/
 
 
 body {
-	 background: rgba(139,58,58,1);
+	background: rgba(231,215,215,1);
+    background-image: url("../img/logo-pj-32x32-white-bg.svg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 .brand {
+   
+
+    background-repeat: no-repeat;
     width: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     margin: 0 2px;
     padding: 5px;
@@ -43,8 +52,9 @@ body {
 
 
 .hero {
-    background: rgba(231,215,215,1);
+   
     width: 100%;
+
 
 }
 
