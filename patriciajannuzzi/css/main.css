@@ -34,7 +34,11 @@ body {
 
 }
 
+.bighero {
 
+    height: 400px;
+    background-image: url("../img/DSC_0609.JPG");
+}
 
 
 
@@ -52,7 +56,7 @@ body {
 
     .hero {
         background: rgba(231,215,215,1);
-        font-size: 1.5em;
+        font-size: 1em;
     }
 }
 @media
