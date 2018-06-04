@@ -34,7 +34,7 @@ ul,li {
 .socialbar {
   background: rgba(58,98,138,1);
   width: 100%;
-  min-height: 5vh;
+  min-height: 10vh;
 }
 
 .title {
