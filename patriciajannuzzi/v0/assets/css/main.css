@@ -18,10 +18,8 @@ ul,li {
   width: 100%;
   display: flex;
   align-items: center;
-
-
-
 }
+
 .logo {
   background-image: url('../img/logo-pj.svg');
   background-repeat: no-repeat;
@@ -29,8 +27,18 @@ ul,li {
 
 .brand {
   font-size: 2em;
+  margin: 2px 10px;
 }
 
+.identity {
+  display: flex;
+  align-items: center;
+  justify-contents: space-between;
+
+}
+.contact {
+
+}
 .socialbar {
   background: rgba(58,98,138,1);
   width: 100%;
