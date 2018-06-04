@@ -40,9 +40,9 @@ ul,li {
 
 }
 .socialbar {
-  background: rgba(58,98,138,1);
+  background: rgba(58,98,138,0.7);
   width: 100%;
-  min-height: 8vh;
+  min-height: 5vh;
 }
 
 .title {
