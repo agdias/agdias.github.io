@@ -32,14 +32,14 @@ ul,li {
 }
 
 .socialbar {
-background: rgba(136,159,183,1);
-width: 100%;
-background-color: #ff997d;
+  background: rgba(58,98,138,1);
+  width: 100%;
+  min-height: 15vh;
 }
 
 .title {
   /*background-color: #889fb7;*/
-  color: rgba(0,51,102,0.5);
+  color: rgba(58,98,138,1);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
