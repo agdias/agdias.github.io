@@ -55,7 +55,7 @@ background-color: #ff997d;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  font-family: Cinzel;
+  font-family: 'Cinzel', sans-serif;
   display: block;
 }
 
