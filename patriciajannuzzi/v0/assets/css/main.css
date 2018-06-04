@@ -1,10 +1,5 @@
 
-@import url(https://weloveiconfonts.com/api/?family=zocial);
 
-/* zocial */
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-}
 
 ul {
   list-style: none;
@@ -37,7 +32,7 @@ ul,li {
 }
 
 .socialbar {
-/*  background: rgba(136,159,183,1);*/
+background: rgba(136,159,183,1);
 width: 100%;
 background-color: #ff997d;
 }
