@@ -1,0 +1,66 @@
+@font-face {
+  font-family: MontSerrat;
+  src: url('../fonts/MontSerrat/Montserrat-Regular.ttf')
+}
+@font-face {
+  font-family: Cinzel;
+  src: url('../fonts/Cinzel/Cinzel-Regular.ttf')
+}
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  line-height: 10%;
+}
+
+ul,li {
+  margin:0;
+  padding:0;
+}
+
+.hero {
+
+  min-height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+
+
+}
+.logo {
+  background-image: url('../img/logo-pj.svg');
+  background-repeat: no-repeat;
+}
+
+.brand {
+  font-size: 2em;
+}
+
+.socialbar {
+/*  background: rgba(136,159,183,1);*/
+width: 100%;
+background-color: #ff997d;
+}
+
+.title {
+  /*background-color: #889fb7;*/
+  color: #003366;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Cinzel;
+  display: block;
+}
+
+
+
+.wrapper {
+  display: 100%;
+}
