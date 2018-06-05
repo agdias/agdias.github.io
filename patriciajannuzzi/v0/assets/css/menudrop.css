@@ -20,9 +20,10 @@ body {
 }
 
 .concept {
-  background-color: rgba(58,98,138,1);
-  background-image: url('../img/mandala.svg');
-  opacity: 0.2;
+
+  /*background-image: url('../img/mandala.svg');*/
+  background: rgba(58,98,138,0.7);
+  opacity: 0.1;
   color: #d1d1d1;
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,5 +49,5 @@ body {
   text-align: center;
   font-family: 'Cinzel', sans-serif;
   line-height:1.5;
-  
+
 }
