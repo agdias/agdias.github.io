@@ -25,6 +25,11 @@ ul,li {
   background-repeat: no-repeat;
 }
 
+.navbar {
+  width: 100%;
+    background: rgba(58,98,138,0.7);
+    min-height: 5vh;
+}
 .brand {
   font-size: 2em;
   margin: 2px 10px;
