@@ -1,0 +1,76 @@
+body {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: block;
+}
+
+.c1, .c3 {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  z-index: 1;
+}
+
+.c1 {
+  -webkit-transform: translate(-250px,0);
+  transform: translate(-250px,0);
+}
+
+.c2 {
+  width: 100%;
+  position: absolute;
+  background: lightblue;
+}
+
+.c3 {
+  background: lightgreen;
+  left: 100%;
+}
+
+.c1.open {
+  -webkit-transform: translate(0,0);
+  transform: translate(0,0);
+}
+
+.c3.open {
+  -webkit-transform: translate(-250px,0);
+  transform: translate(-250px,0);
+}
+
+@media(min-width: 500px) {
+  .wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .c1 {
+    background: green;
+    position: relative;
+    transition: none 0s ease-out;
+    transform: translate(0,0);
+  }
+
+  .c2 {
+    position: static;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    overflow-x: auto;
+  }
+  .c3 {
+    background: lightgreen;
+    position: relative;
+    left: auto;
+    transition: none 0s ease-out;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
