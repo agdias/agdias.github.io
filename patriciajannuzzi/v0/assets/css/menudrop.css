@@ -19,6 +19,16 @@ body {
   border-bottom: thin solid rgba(234,246,253,1);
 }
 
+.concept {
+  background-color: rgba(58,98,138,1);
+  background-image: url('../img/mandala.svg');
+  opacity: 0.2;
+  color: #d1d1d1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25em;
+}
+
 .menuicon {
   color: #fff;
   text-align: right;
@@ -38,4 +48,5 @@ body {
   text-align: center;
   font-family: 'Cinzel', sans-serif;
   line-height:1.5;
+  
 }
