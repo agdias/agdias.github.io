@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+.container {
+  width: 100%;
+}
+
+.menubar {
+  width: 100%;
+  background: rgba(58,98,138,0.7);
+  /*border-bottom: thin solid rgba(187,227,249,1);*/
+  border-bottom: thin solid rgba(234,246,253,1);
+}
+
+.menuicon {
+  color: #fff;
+  text-align: right;
+  margin: 0 5px;
+  padding: 10px;
+}
+
+.socialbar {
+  background: rgba(58,98,138,0.8);
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.logo  {
+  text-align: center;
+  font-family: 'Cinzel', sans-serif;
+  line-height:1.5;
+}
