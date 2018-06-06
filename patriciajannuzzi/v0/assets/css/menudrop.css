@@ -17,6 +17,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.8em;
   text-align: center;
+  margin-bottom: 5vh;
 }
 
 .contact p {
@@ -37,13 +38,9 @@ body {
 
 .concept {
 
-  /*background-image: url('../img/mandala.svg');*/
-  background: rgba(58,98,138,0.7);
-  opacity: 0.1;
+  background:rgba(58,98,138,0.6);
   color: #d1d1d1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 25em;
+  height: 25vh;
 }
 
 .menuicon {
@@ -70,7 +67,7 @@ body {
   font-family: 'Cinzel', sans-serif;
   line-height:1.5;
   margin 0 10px;
-  height: 30vh;
+  height: 25vh;
 }
 
 .logo li {
