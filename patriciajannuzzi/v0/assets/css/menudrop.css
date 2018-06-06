@@ -12,6 +12,22 @@ body {
   width: 100%;
 }
 
+.contact {
+  width: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.contact p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact i {
+
+    margin: 0 20px;
+}
+
 .menubar {
   width: 100%;
   background: rgba(58,98,138,0.7);
@@ -39,15 +55,26 @@ body {
 
 .socialbar {
   background: rgba(58,98,138,0.8);
-  color: #fff;
-  text-align: center;
   font-size: 1.5em;
-  padding: 10px;
+  color: #fff;
+
+
+  text-align: center;
+
 }
+
+
 
 .logo  {
   text-align: center;
   font-family: 'Cinzel', sans-serif;
   line-height:1.5;
+  margin 0 10px;
+  height: 20vh;
+}
 
+
+
+.logo i {
+  margin: 0 10px;
 }
