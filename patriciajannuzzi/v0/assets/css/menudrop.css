@@ -83,3 +83,10 @@ body {
 .logo i {
   margin: 0 10px;
 }
+
+.news {
+  width: 100%;
+  border: thin solid #003366;
+  height: 25vh;
+
+}
