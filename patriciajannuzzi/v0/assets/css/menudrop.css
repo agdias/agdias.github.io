@@ -70,7 +70,11 @@ body {
   font-family: 'Cinzel', sans-serif;
   line-height:1.5;
   margin 0 10px;
-  height: 20vh;
+  height: 30vh;
+}
+
+.logo li {
+  list-style: none;
 }
 
 
