@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/manager/sw.js', {scope:'/manager/'})
+  navigator.serviceWorker.register('/statemanager/sw.js', {scope:'/statemanager/'})
   .then((reg)=> {
     console.log('Registration succeeded. Scope is ' + reg.scope);
   }).catch(function(error) {
