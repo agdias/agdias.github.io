@@ -22,8 +22,8 @@ if ('serviceWorker' in navigator) {
       caches.open(CACHE_NAME)
         .then((cache) => {
           console.log('Opened cache');
-          return cache.addAll(urlsToCache);
         });
+
     );
   });
 
