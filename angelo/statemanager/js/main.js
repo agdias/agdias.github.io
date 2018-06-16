@@ -17,7 +17,6 @@ if ('serviceWorker' in navigator) {
     });
 
   });
-
   self.addEventListener('install',(event) => {
     event.waitUntil(
       caches.open(CACHE_NAME)
@@ -27,4 +26,6 @@ if ('serviceWorker' in navigator) {
         });
     )
   });
+
+
 }
