@@ -24,7 +24,7 @@ if ('serviceWorker' in navigator) {
           console.log('Opened cache');
           return cache.addAll(urlsToCache);
         });
-    )
+    );
   });
 
 
