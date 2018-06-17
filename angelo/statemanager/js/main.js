@@ -68,8 +68,6 @@ if ('serviceWorker' in navigator && 'PushManager' in window) {
     navigator.serviceWorker.register('sw.js', {scope:'/'})
     .then((reg)=> {
       initializeUI(reg);
-
-
       console.log('Registration succeeded. Scope is ' + reg.scope);
     }).catch(function(error) {
       console.log('Registration failed with ' + error);
