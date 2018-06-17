@@ -1,8 +1,4 @@
 
-const enablepush = () => {
-  console.log('onclick');
-
-}
 const btn = document.querySelector('#btn-enable-push');
 const applicationServerPublicKey = 'BEl5yaSl_5l0M7J3TFKX8r5MO7zKncm0tPU5XhOV5jBED2wj9h-I7V7qfYhIu0jrVfaH0hwC-wW6QcBCCXQvhSU';
 
