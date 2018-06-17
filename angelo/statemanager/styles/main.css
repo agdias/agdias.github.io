@@ -1,0 +1,40 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.jumbotron {
+  width:100%;
+  font-size: 30px;
+  color: #fff;
+  padding: 100px;
+  text-align: left;
+  background: rgba(32,178,170,1);
+  color: #fff;
+}
+
+.push {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.btn {
+  padding: 20px;
+  width: 200px;
+  disabled: true;
+}
+
+.btn:hover {
+  color: rgba(32,178,170,1);
+  disabled: true;
+}
