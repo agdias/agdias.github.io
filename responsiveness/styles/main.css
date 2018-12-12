@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+     max-width: sempre que janela de exibicao for menor que o valor especificado 
+     min-width: 
+
+
+*/
+
+
+
+.container {
+   
+    width: 100%;
+    height: 80vh;
+}
+
+.content {
+    display: flex;
+    
+    
+    justify-content: 'center';
+    align-items: 'center';
+    
+    
+}
+
+.hero {
+    
+   
+    background-image: url(/img/download.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 32vh;
+    
+    font-size: 0;
+   
+}
+
+
+   #menu-bar {
+       width: 100%;
+       height: 100%;
+       background: lightskyblue;
+   }
+
+    .dropdown {
+        list-style: none;
+        
+        margin-top: 0;
+        
+        
+    }
+
+    .dropdown li {
+      
+    
+      width: 100%;
+      height: auto;
+      background: lightseagreen;
+        
+        
+    }
+
+    .dropdown li a {
+        display: block;
+        width: 100%;
+        color: #545454;
+        text-decoration: none;
+        text-align: left;
+        padding: 10px;
+        text-align: center;
+        
+      
+        float: right;
+        
+    }
+
+    .dropdown li a:hover {
+        background-color: lightblue;
+        color: #fff;
+    }
+
+        
+    .top-menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 8px;
+        background: lightseagreen;
+        overflow: hidden;
+        border-bottom: thin solid  #A2CBF5;
+       
+    }
+
+   .menu-open {
+       
+       background: 'green';
+       width: 100%;
+       color: turquoise;
+   }
+   .menu-collapsed {
+       display: none;
+       color: green;
+   }
+
+
+
+
+    .menu-icon {
+        margin-right: 20px;
+        color: whitesmoke;
+        font-size: 1.5em; 
+    }
+ 
+    .menu-close {
+        display: none;
+    }
+  
+
+
+
+
+
